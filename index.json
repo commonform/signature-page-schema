@@ -6,8 +6,12 @@
       "minLength": 1 } },
   "type": "object",
   "properties": {
-    "date": {
-      "type": "boolean" },
+    "information": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [ "date", "email", "address" ] } },
     "entities": {
       "type": "array",
       "minItems": 1,
@@ -30,5 +34,5 @@
       "$ref": "#/definitions/nonemptyString" },
     "term": {
       "$ref": "#/definitions/nonemptyString" } },
-  "required": [ "date", "header", "name" ],
+  "required": [ "header", "name" ],
   "additionalProperties": false }

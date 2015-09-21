@@ -1,9 +1,8 @@
 [ { "term": "Assignor",
     "header": "The parties enter this agreement on the first date written above.",
-    "date": false,
+    "information": [ "date" ],
     "name": "Jane Doe" },
   { "header": "The undersigned directors adopt this unanimous written consent.",
-    "date": false,
     "entities": [
       { "name": "NewCo, Inc",
         "form": "corporation",
