@@ -1,0 +1,30 @@
+{ "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "signature page",
+  "defintiions": {
+    "nonemptyString": {
+      "type": "string",
+      "minLength": 1 } },
+  "type": "object",
+  "properties": {
+    "entities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "form": {
+            "$ref": "#/definitions/nonemptyString" },
+          "jurisdiction": {
+            "$ref": "#/definitions/nonemptyString" },
+          "name": {
+            "$ref": "#/definitions/nonemptyString" },
+          "role": {
+            "$ref": "#/definitions/nonemptyString" } },
+        "required": [ "form", "jurisdiction", "name", "role" ],
+        "additionalProperties": false } },
+    "header": {
+      "$ref": "#/definitions/nonemptyString" },
+    "name": {
+      "$ref": "#/definitions/nonemptyString" } },
+  "required": [ "header", "name" ],
+  "additionalProperties": false }

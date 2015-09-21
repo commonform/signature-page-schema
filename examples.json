@@ -1,0 +1,9 @@
+[ { "header": "The parties enter this agreement on the first date written above.",
+    "name": "Jane Doe" },
+  { "header": "The undersigned directors adopt this unanimous written consent.",
+    "entities": [
+      { "name": "NewCo, Inc",
+        "form": "corporation",
+        "jurisdiction": "Delaware",
+        "role": "Director" } ],
+    "name": "Jane Doe" } ]
