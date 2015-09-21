@@ -25,6 +25,8 @@
     "header": {
       "$ref": "#/definitions/nonemptyString" },
     "name": {
+      "$ref": "#/definitions/nonemptyString" },
+    "term": {
       "$ref": "#/definitions/nonemptyString" } },
   "required": [ "header", "name" ],
   "additionalProperties": false }
