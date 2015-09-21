@@ -20,17 +20,17 @@ For example:
       { "name": "B, LLC",
         "form": "corporation",
         "jurisdiction": "Delaware",
-        // The role (or title) of the entity signing for it.
+        // The agent of the entity signing for it.
         // In this case, A, LP, next in the Array.
-        "role": "Manager" },
+        "by": "Manager" },
       { "name": "A, LP",
         "form": "limited partnership",
         "jurisdiction": "Delaware",
-        "role": "Limited Partner" },
+        "by": "Limited Partner" },
       { "name": "NewCo, Inc",
         "form": "corporation",
         "jurisdiction": "Delaware",
         // Jane Doe is director of NewCo.
-        "role": "Director" } ],
+        "by": "Director" } ],
     "name": "Jane Doe" } ]
 ```

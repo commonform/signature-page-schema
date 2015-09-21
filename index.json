@@ -24,9 +24,9 @@
             "$ref": "#/definitions/nonemptyString" },
           "name": {
             "$ref": "#/definitions/nonemptyString" },
-          "role": {
+          "by": {
             "$ref": "#/definitions/nonemptyString" } },
-        "required": [ "form", "jurisdiction", "name", "role" ],
+        "required": [ "by", "form", "jurisdiction", "name" ],
         "additionalProperties": false } },
     "header": {
       "$ref": "#/definitions/nonemptyString" },
