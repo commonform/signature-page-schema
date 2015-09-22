@@ -2,6 +2,7 @@
     "header": "The parties enter this agreement on the first date written above.",
     "information": [ "date" ],
     "name": "Jane Doe" },
+  { },
   { "term": "Company",
     "header": "The parties enter this agreement on the first date written above.",
     "information": [ "address", "email" ],

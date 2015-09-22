@@ -26,7 +26,6 @@
             "$ref": "#/definitions/nonemptyString" },
           "by": {
             "$ref": "#/definitions/nonemptyString" } },
-        "required": [ "by", "form", "jurisdiction", "name" ],
         "additionalProperties": false } },
     "header": {
       "$ref": "#/definitions/nonemptyString" },
@@ -34,5 +33,4 @@
       "$ref": "#/definitions/nonemptyString" },
     "term": {
       "$ref": "#/definitions/nonemptyString" } },
-  "required": [ "header", "name" ],
   "additionalProperties": false }
