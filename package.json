@@ -6,7 +6,7 @@
   "repository": "commonform/signature-page-schema",
   "license": "Apache-2.0",
   "files": [
-    "index.js"
+    "index.json"
   ],
   "devDependencies": {
     "standard": "^8.0.0",
