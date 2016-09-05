@@ -12,7 +12,8 @@ For example:
     // Here, signing in individual capacity.
     "name": "Jane Doe" },
   { "term": "Company",
-    "header": "The parties enter this agreement on the first date written above.",
+    // Do not break page before this signature.
+    "samePage": true,
     "information": [ "address", "email" ],
     // Intermediary entities.
     "entities": [

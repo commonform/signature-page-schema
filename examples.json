@@ -19,4 +19,6 @@
         "form": "corporation",
         "jurisdiction": "Delaware",
         "by": "Director" } ],
-    "name": "Jane Doe" } ]
+    "name": "Jane Doe" },
+  { "samePage": true },
+  { "samePage": false } ]
