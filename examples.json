@@ -1,24 +1,46 @@
-[ { "term": "Contractor",
+[
+  {
+    "term": "Contractor",
     "header": "The parties enter this agreement on the first date written above.",
-    "information": [ "date" ],
-    "name": "Jane Doe" },
-  { },
-  { "term": "Company",
+    "information": [
+      "date"
+    ],
+    "name": "Jane Doe"
+  },
+  {},
+  {
+    "term": "Company",
     "header": "The parties enter this agreement on the first date written above.",
-    "information": [ "address", "email" ],
+    "information": [
+      "address",
+      "email"
+    ],
     "entities": [
-      { "name": "B, LLC",
+      {
+        "name": "B, LLC",
         "form": "corporation",
         "jurisdiction": "Delaware",
-        "by": "Manager" },
-      { "name": "A, LP",
+        "by": "Manager"
+      },
+      {
+        "name": "A, LP",
         "form": "limited partnership",
         "jurisdiction": "Delaware",
-        "by": "Limited Partner" },
-      { "name": "NewCo, Inc",
+        "by": "Limited Partner"
+      },
+      {
+        "name": "NewCo, Inc",
         "form": "corporation",
         "jurisdiction": "Delaware",
-        "by": "Director" } ],
-    "name": "Jane Doe" },
-  { "samePage": true },
-  { "samePage": false } ]
+        "by": "Director"
+      }
+    ],
+    "name": "Jane Doe"
+  },
+  {
+    "samePage": true
+  },
+  {
+    "samePage": false
+  }
+]

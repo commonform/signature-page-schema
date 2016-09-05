@@ -6,9 +6,11 @@
   "repository": "commonform/signature-page-schema",
   "license": "Apache-2.0",
   "devDependencies": {
+    "standard": "^8.0.0",
     "tv4": "^1.2.7"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "standard"
   }
 }

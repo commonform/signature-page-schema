@@ -1,9 +1,12 @@
-{ "$schema": "http://json-schema.org/draft-04/schema#",
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "signature page",
   "definitions": {
     "nonemptyString": {
       "type": "string",
-      "minLength": 1 } },
+      "minLength": 1
+    }
+  },
   "type": "object",
   "properties": {
     "information": {
@@ -11,7 +14,9 @@
       "minItems": 1,
       "uniqueItems": true,
       "items": {
-        "$ref": "#/definitions/nonemptyString" } },
+        "$ref": "#/definitions/nonemptyString"
+      }
+    },
     "entities": {
       "type": "array",
       "minItems": 1,
@@ -19,20 +24,33 @@
         "type": "object",
         "properties": {
           "form": {
-            "$ref": "#/definitions/nonemptyString" },
+            "$ref": "#/definitions/nonemptyString"
+          },
           "jurisdiction": {
-            "$ref": "#/definitions/nonemptyString" },
+            "$ref": "#/definitions/nonemptyString"
+          },
           "name": {
-            "$ref": "#/definitions/nonemptyString" },
+            "$ref": "#/definitions/nonemptyString"
+          },
           "by": {
-            "$ref": "#/definitions/nonemptyString" } },
-        "additionalProperties": false } },
+            "$ref": "#/definitions/nonemptyString"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
     "header": {
-      "$ref": "#/definitions/nonemptyString" },
+      "$ref": "#/definitions/nonemptyString"
+    },
     "name": {
-      "$ref": "#/definitions/nonemptyString" },
+      "$ref": "#/definitions/nonemptyString"
+    },
     "term": {
-      "$ref": "#/definitions/nonemptyString" },
+      "$ref": "#/definitions/nonemptyString"
+    },
     "samePage": {
-      "type": "boolean" } },
-  "additionalProperties": false }
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}
