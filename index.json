@@ -9,12 +9,24 @@
   "type": "object",
   "properties": {
     "information": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "items": {
-        "$ref": "#/definitions/nonemptyString"
-      }
+      "oneOf": [
+        {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/nonemptyString"
+          }
+        },
+        {
+          "type": "object",
+          "patternProperties": {
+            "^.+$": {
+              "$ref": "#/definitions/nonemptyString"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
     },
     "entities": {
       "type": "array",

@@ -7,6 +7,11 @@
     ],
     "name": "Jane Doe"
   },
+  {
+    "information": {
+      "date": "January 1, 2019"
+    }
+  },
   {},
   {
     "term": "Company",
