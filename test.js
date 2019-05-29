@@ -1,7 +1,10 @@
-var tv4 = require('tv4')
+var AJV = require('ajv')
 var assert = require('assert')
 var schema = require('.')
 
+var ajv = new AJV()
+
 require('./examples.json').forEach(function (example) {
-  assert(tv4.validate(example, schema))
+  ajv.validate(schema, example)
+  assert.strictEqual(ajv.errors, null)
 })
