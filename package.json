@@ -10,9 +10,11 @@
   ],
   "devDependencies": {
     "ajv": "^6.10.0",
+    "reformat-json-files": "^1.0.1",
     "standard": "^8.0.0"
   },
   "scripts": {
+    "format": "reformat-json-files *.json",
     "test": "node test.js",
     "lint": "standard"
   }
