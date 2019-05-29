@@ -4,7 +4,7 @@
   "description": "JSON Schema for signature pages",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "commonform/signature-page-schema",
-  "license": "Apache-2.0",
+  "license": "BlueOak-1.0.0",
   "files": [
     "index.json"
   ],
